@@ -15,3 +15,12 @@
   height: 3px;
   background-color: rgb(139, 120, 109);
 }
+
+.f {
+  margin-top: 0%;
+}
+
+p {
+  margin-bottom: 0%;
+  margin-top: 15px;
+}
