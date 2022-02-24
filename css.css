@@ -1,0 +1,17 @@
+/*  ABOUT PAGE ONLY  */
+.aboutS {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.abo {
+  margin: 10vh;
+}
+
+.linesmol {
+  width: 60%;
+  height: 3px;
+  background-color: rgb(139, 120, 109);
+}
