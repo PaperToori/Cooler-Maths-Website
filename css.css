@@ -1,3 +1,8 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 /*  ABOUT PAGE ONLY  */
 .aboutS {
   display: flex;
@@ -23,4 +28,31 @@
 p {
   margin-bottom: 0%;
   margin-top: 15px;
+}
+
+/*  HEADER  */
+header {
+  background-color: darkolivegreen;
+  padding: 2vh;
+  color: azure;
+}
+.header-grid {
+  display: grid;
+  grid-template-rows: 2;
+  text-align: center;
+}
+.header-access_bar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+/*  LINKS  */
+a {
+  color: azure;
+  text-decoration: none;
+}
+a:hover {
+  color: chartreuse;
 }
