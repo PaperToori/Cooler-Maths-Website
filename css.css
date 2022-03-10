@@ -3,16 +3,81 @@
   padding: 0%;
 }
 
-/*  ABOUT PAGE ONLY  */
+/* ----- HEADER ----- */
+header {
+  background-color: darkolivegreen;
+  padding: 2vh;
+  color: azure;
+  display: grid;
+  grid-template-rows: 2;
+  text-align: center;
+}
+.header-access_bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+/* ----- FOOTER ----- */
+footer {
+  color: azure;
+  background-color: darkgreen;
+  margin-top: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+/* ----- LINKS ----- */
+a {
+  color: azure;
+  text-decoration: none;
+}
+a:hover {
+  color: chartreuse;
+}
+
+/* ----- INDEX PAGE ----- */
+.info-start {
+  color: azure;
+  background-color: darkseagreen;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.basics {
+  text-align: center;
+  margin-top: 2vh;
+}
+.basics-unit {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+/* ----- GAMES PAGE ----- */
+
+/* ----- HOW2PLAY PAGE ----- */
+
+/* ----- ABOUT PAGE ----- */
 .aboutS {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: flex-start;
 }
 
 .abo {
-  margin: 10vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .linesmol {
@@ -25,34 +90,15 @@
   margin-top: 0%;
 }
 
-p {
+.bout {
   margin-bottom: 0%;
   margin-top: 15px;
 }
 
-/*  HEADER  */
-header {
-  background-color: darkolivegreen;
-  padding: 2vh;
-  color: azure;
-}
-.header-grid {
-  display: grid;
-  grid-template-rows: 2;
-  text-align: center;
-}
-.header-access_bar {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  text-align: center;
-  margin-top: 3vh;
-}
+/* ----- JUGS GAME ----- */
 
-/*  LINKS  */
-a {
-  color: azure;
-  text-decoration: none;
-}
-a:hover {
-  color: chartreuse;
-}
+/* ----- PRIME STAIRS GAME ----- */
+
+/* ----- CAKESPLITTER ----- */
+
+/* ----- STOCKS! GAME ----- */
