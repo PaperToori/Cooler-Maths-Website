@@ -24,6 +24,9 @@ header {
   text-align: center;
   margin-top: 3vh;
 }
+.title {
+  font-size: 32px;
+}
 
 /* ----- FOOTER ----- */
 footer {
@@ -71,7 +74,31 @@ a:hover {
   width: 30%;
 }
 
-/* ----- GAMES PAGE ----- */
+/* ----- GAMES PAGE ----- */ /*  THIS IS VERY BROKEN  */
+.all-games {
+  text-align: center;
+  width: 100%;
+}
+.games-container {
+  display: flex;
+  width: 90%;
+  min-height: 100%;
+  margin: 5%;
+}
+.game-container img {
+  align-content: right;
+}
+.game {
+  width: 30%;
+  min-width: 300px;
+  margin: 1%;
+}
+.sub-title {
+  font-size: 28px;
+}
+.gImg {
+  width: 300px;
+}
 
 /* ----- HOW2PLAY PAGE ----- */
 
