@@ -76,13 +76,14 @@ a:hover {
 
 /* ----- GAMES PAGE ----- */ /*  THIS IS VERY BROKEN  */
 .all-games {
-  text-align: center;
   width: 100%;
 }
 .games-container {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
   width: 90%;
-  min-height: 100%;
   margin: 5%;
 }
 .game-container img {
@@ -95,9 +96,18 @@ a:hover {
 }
 .sub-title {
   font-size: 28px;
+  margin: 2vh 0 2vh 0;
+  text-align: center;
+}
+.linesmol2 {
+  width: 60%;
+  height: 3px;
+  background-color: rgb(139, 120, 109);
+  margin: 0 auto;
 }
 .gImg {
-  width: 300px;
+  width: 100%;
+  min-width: 150px;
 }
 
 /* ----- HOW2PLAY PAGE ----- */
