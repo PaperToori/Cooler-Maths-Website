@@ -17,21 +17,37 @@
         <f><a href="about.html">About Me</a></f>
       </div>
     </header>
-    <div>
-      <h2>Jug 1</h2>
-      <h3 id="jug1-contents">0</h3>
-      <h2>Jug 2</h2>
-      <h3 id="jug2-contents">0</h3>
-      <p>
+    <div class="jug-grid">
+      <div class="points">
+        <f>Points:</f>
+        <f id="points">0</f>
+      </div>
+      <button id="confrim">Confrim</button>
+      <div>
+        <f>Goal:</f>
+        <f id="goal">0</f>
+      </div>
+
+      <div class="jugs">
+        <div>
+          <f>Jug 1:</f>
+          <f id="jug1-contents">0</f>
+        </div>
+        <div>
+          <f>Jug 2:</f>
+          <f id="jug2-contents">0</f>
+        </div>
+      </div>
+      <div>
         <button id="jug1-fill">Fill Jug 1</button>
         <button id="jug1-drain">Drain Jug 1</button>
         <button id="jug2-fill">Fill Jug 2</button>
         <button id="jug2-drain">Drain Jug 2</button>
-      </p>
-      <p>
+      </div>
+      <div>
         <button id="jug1-to-jug2">Transfer 1🠖2</button>
         <button id="jug2-to-jug1">Transfer 2🠔1</button>
-      </p>
+      </div>
     </div>
   </body>
 </html>

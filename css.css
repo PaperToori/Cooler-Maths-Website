@@ -143,6 +143,14 @@ a:hover {
 }
 
 /* ----- JUGS GAME ----- */
+.jug-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 2fr 2fr 2fr;
+  place-items: center;
+}
+.jug1-contents {
+  margin: 5%;
+}
 
 /* ----- PRIME STAIRS GAME ----- */
 
