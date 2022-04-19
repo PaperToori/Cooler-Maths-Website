@@ -151,6 +151,13 @@ a:hover {
 .jug1-contents {
   margin: 5%;
 }
+.jugs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.marginPer {
+  margin: 20%;
+}
 
 /* ----- PRIME STAIRS GAME ----- */
 

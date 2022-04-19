@@ -2,6 +2,7 @@ let jug1max = 5;
 let jug2max = 7;
 let jug1 = 0;
 let jug2 = 0;
+let goal = 4;
 let cache;
 
 document.getElementById("jug1-fill").addEventListener("click", fillJug1);
