@@ -12,6 +12,8 @@ document.getElementById("jug2-drain").addEventListener("click", drainJug2);
 document.getElementById("jug1-to-jug2").addEventListener("click", jug1to2);
 document.getElementById("jug2-to-jug1").addEventListener("click", jug2to1);
 
+/*  JUG DISPLACEMENT FUNCTIONS  */
+
 function fillJug1() {
   document.getElementById("jug1-contents").innerHTML = jug1max;
   jug1 = jug1max;
