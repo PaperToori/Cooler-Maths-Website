@@ -143,13 +143,28 @@ a:hover {
 }
 
 /* ----- JUGS GAME ----- */
+.white-txt {
+  color: azure;
+}
 .jug-grid {
   display: grid;
-  grid-template-rows: 1fr 1fr 3fr 300px 2fr 2fr;
+  grid-template-rows: 100px 50px 180px 300px 100px 100px;
   place-items: center;
 }
 .jug1-contents {
   margin: 5%;
+}
+.points {
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  line-height: 75px;
+}
+.goal {
+  height: 80px;
+  width: 240px;
+  text-align: center;
+  line-height: 80px;
 }
 .jugs {
   display: grid;
@@ -161,9 +176,17 @@ a:hover {
 }
 
 .backg {
-  background-image: url("/jug.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+.backg-jug {
+  background-image: url("/jug.png");
+}
+.backg-goal {
+  background-image: url("/Goal-oval.png");
+}
+.backg-points {
+  background-image: url("/Score\ board.png");
 }
 
 /* ----- PRIME STAIRS GAME ----- */

@@ -3,6 +3,7 @@ let jug2max = 7;
 let jug1 = 0;
 let jug2 = 0;
 let goal = 4;
+let points = 0;
 let cache;
 
 document.getElementById("jug1-fill").addEventListener("click", fillJug1);
@@ -11,6 +12,21 @@ document.getElementById("jug2-fill").addEventListener("click", fillJug2);
 document.getElementById("jug2-drain").addEventListener("click", drainJug2);
 document.getElementById("jug1-to-jug2").addEventListener("click", jug1to2);
 document.getElementById("jug2-to-jug1").addEventListener("click", jug2to1);
+document.getElementById("confirm").addEventListener("click", confrimP);
+
+/*  GOAL AND POINTS  */
+
+function confrimP() {
+  if (jug1 == goal || jug2 == goal) {
+    points++;
+    document.getElementById("points").innerHTML = points;
+    goalScramble;
+    console.log("GOOOOOAAAAAAAALLLLLLL");
+  } else {
+    console.log("NOOOOOOOOOOOOOOOOOOOO");
+  }
+}
+function goalScramble() {}
 
 /*  JUG DISPLACEMENT FUNCTIONS  */
 
