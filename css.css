@@ -180,13 +180,13 @@ a:hover {
   background-size: 100% 100%;
 }
 .backg-jug {
-  background-image: url("/jug.png");
+  background-image: url("jug.png");
 }
 .backg-goal {
-  background-image: url("/Goal-oval.png");
+  background-image: url("Goal-oval.png");
 }
 .backg-points {
-  background-image: url("/Score\ board.png");
+  background-image: url("Score-board.png");
 }
 
 /* ----- PRIME STAIRS GAME ----- */
